@@ -44,10 +44,10 @@ export default function Home() {
             <section className="features-section py-5">
                 <Container>
                     <Row className="g-4">
-                        <Feature title="No Ads, No Algorithms" desc="Enjoy a clean, uncluttered feed with no targeted ads or manipulative algorithms." />
-                        <Feature title="Focus on Mental Wellness" desc="Built to reduce doomscrolling and support genuine connection." />
+                        <Feature title="No Ads, No Algorithms" desc="Enjoy a clean, uncluttered feed with no targeted ads or manipulative algorithms. Fair Visibility for All." />
+                        <Feature title="Intentional Use" desc="Built to reduce doomscrolling and support genuine connection." />
                         <Feature title="Inclusive & Respectful" desc="Body-positive and LGBTQ+ friendly. Moderated with care." />
-                        <Feature title="Private by Design" desc="No follower counts, no public like numbers. You're in control." />
+                        <Feature title="Focus on Mental Wellness" desc="No follower counts, no public like numbers. Social media should not be a popularity contest." />
                     </Row>
                 </Container>
             </section>
@@ -57,8 +57,8 @@ export default function Home() {
 
 function Feature({ title, desc }) {
     return (
-        <Col md={6} lg={3}>
-            <div className="feature-card">
+        <Col md={6} lg={3} className="d-flex align-items-center justify-content-center">
+            <div className="feature-card text-center">
                 <h5 className="feature-title">{title}</h5>
                 <p className="feature-text">{desc}</p>
             </div>
