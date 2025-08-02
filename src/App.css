@@ -1,6 +1,53 @@
+/* CSS Variables - Color Palette */
+:root {
+  /* Backgrounds */
+  --dark-background: #0F0F0F;
+  /* Obsidian Black, very deep black with a slight warmth for comfort */
+  --dark-scaffold: #1C1C1C;
+  /* Raven Black, dark charcoal tone that provides better readability without glare */
+  --dark-secondary-background: #212723;
+  /* Shadow Moss. Used for navigation. Deep green-black appearance provides a calm, subtle backdrop that lets content shine. */
+
+  /* Actions & Elements */
+  --dark-primary: #9bd4a6;
+  /* Forest Green. Earthy and natural color */
+  --dark-secondary: #4E7856;
+  /* Deep Moss Green. Offers depth without brightness */
+  --dark-tertiary: #744C38;
+  /* Smoked Clay. Warm and balanced — just enough contrast for informative icons */
+
+  /* Error & Warning */
+  --dark-warning: #D81B60;
+  /* Raspberry Pink. Vibrant and eye-catching, used for delete buttons */
+  --dark-alert-text: #F4F4EC;
+
+  /* Text Colors for Dark Backgrounds (Obsidian & Raven Black) */
+  --dark-primary-text: #EAEAEA;
+  /* Soft White. Headlines, Important Labels. High contrast without being glaring */
+  --dark-body-text: #B8B8B8;
+  /* Warm Gray. Paragraphs, Readable Content. Easy on the eyes, avoids sharp contrast */
+  --dark-disabled: #8C8C8C;
+  /* Soft Gray. Safe, accessible gray that will remain legible even on very dark backgrounds */
+
+  /* Text Colors for Green Elements (Forest Green & Deep Moss Green) */
+  --dark-on-primary-text: #1C1C1C;
+  /* Pale Ivory. Soft white that contrasts beautifully without being too bright */
+  --dark-on-secondary-text: #FFFFFF;
+  /* Muted Beige. Softer alternative to pure white, easier on the eyes */
+  --dark-on-tertiary-text: #FFFFFF;
+  /* Muted Beige. Softer alternative to pure white, easier on the eyes */
+
+  /* Input */
+  --dark-input-background: #1E1E1E;
+  /* Dark Gray */
+
+  /* Border for Input Fields and Slider */
+  --dark-border: #2A2A2A;
+  /* Muted Gray */
+}
+
 /* App Base Styles */
 .App {
-  text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -43,6 +90,7 @@ main {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -50,20 +98,29 @@ main {
 
 /* Global Styles */
 body {
-  background-color: #0f0f0f;
-  color: #b8b8b8;
+  background-color: var(--dark-background);
+  color: var(--dark-body-text);
   font-family: 'Nunito', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-  color: #eaeaea;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--dark-primary-text);
   font-family: 'Poppins', sans-serif;
+}
+
+/* Text utility classes */
+.text-label {
+  color: #8c8c8c;
 }
 
 /* Home Page Styles */
 .home-root {
-  background-color: #0f0f0f;
-  color: #b8b8b8;
+  background-color: var(--dark-background);
+  color: var(--dark-body-text);
   font-family: 'Nunito', sans-serif;
   flex: 1;
   display: flex;
@@ -71,22 +128,22 @@ h1, h2, h3, h4, h5 {
 }
 
 .home-header {
-  background-color: #1c1c1c;
+  background-color: var(--dark-scaffold);
 }
 
 .home-title {
   font-family: 'Poppins', sans-serif;
-  color: #eaeaea;
+  color: var(--dark-primary-text);
   font-weight: 700;
 }
 
 .home-subtitle {
-  color: #eaeaea;
+  color: var(--dark-primary-text);
 }
 
 /* Hero Section */
 .hero-section {
-  background-color: #212723;
+  background-color: var(--dark-secondary-background);
   text-align: center;
   padding: 4rem 1rem;
 }
@@ -97,7 +154,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .hero-title {
-  color: #eaeaea;
+  color: var(--dark-primary-text);
   font-family: 'Poppins', sans-serif;
 }
 
@@ -108,37 +165,37 @@ h1, h2, h3, h4, h5 {
 
 /* Features Section */
 .features-section {
-  background-color: #1c1c1c;
+  background-color: var(--dark-scaffold);
   padding: 3rem 1rem;
   flex: 1;
 }
 
 .feature-card {
-  background-color: #1c1c1c;
-  border: 1px solid #2a2a2a;
+  background-color: var(--dark-scaffold);
+  border: 1px solid var(--dark-border);
   border-radius: 12px;
   padding: 1.5rem;
   margin: 1rem;
   height: 100%;
-  color: #b8b8b8;
+  color: var(--dark-body-text);
 }
 
 .feature-title {
   font-family: 'Poppins', sans-serif;
-  color: #eaeaea;
+  color: var(--dark-primary-text);
   font-weight: 600;
 }
 
 .feature-text {
-  color: #b8b8b8;
+  color: var(--dark-body-text);
 }
 
 /* Call to Action Section */
 .cta-section {
-  background-color: #4e7856;
+  background-color: var(--dark-secondary);
   text-align: center;
   padding: 3rem 1rem;
-  color: #ffffff;
+  color: var(--dark-on-secondary-text);
 }
 
 .cta-title {
@@ -146,12 +203,12 @@ h1, h2, h3, h4, h5 {
 }
 
 .cta-text {
-  color: #ffffff;
+  color: var(--dark-on-secondary-text);
 }
 
 .cta-section a {
-  color: #1c1c1c;
-  background-color: #9bd4a6;
+  color: var(--dark-on-primary-text);
+  background-color: var(--dark-primary);
   padding: 12px 24px;
   border-radius: 6px;
   font-weight: 600;
@@ -160,29 +217,30 @@ h1, h2, h3, h4, h5 {
 
 /* Footer Section */
 .footer-section {
-  background-color: #1c1c1c;
-  color: #8c8c8c;
+  background-color: var(--dark-scaffold);
+  color: var(--dark-disabled);
   text-align: center;
   padding: 2rem 1rem;
 }
 
 .footer-links a {
-  color: #8c8c8c;
+  color: var(--dark-disabled);
   margin: 0 10px;
   text-decoration: none;
 }
 
 /* Privacy Page Styles */
 .privacy-container {
-  background-color: #0f0f0f;
-  color: #b8b8b8;
+  background-color: var(--dark-background);
+  color: var(--dark-body-text);
   font-family: 'Nunito', sans-serif;
   flex: 1;
   padding: 2rem 0;
+  text-align: left;
 }
 
 .privacy-title {
-  color: #eaeaea;
+  color: var(--dark-primary-text);
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
@@ -192,8 +250,43 @@ h1, h2, h3, h4, h5 {
 }
 
 .privacy-section-title {
-  color: #eaeaea;
+  color: var(--dark-primary-text);
   font-family: 'Poppins', sans-serif;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+.privacy-bullet {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.privacy-divider {
+  border-color: var(--dark-border);
+  opacity: 0.5;
+}
+
+.privacy-link {
+  color: var(--dark-primary);
+  text-decoration: none;
+}
+
+.privacy-link:hover {
+  color: var(--dark-secondary);
+  text-decoration: underline;
+}
+
+/* Responsive adjustments for privacy page */
+@media (max-width: 768px) {
+  .privacy-container {
+    padding: 1rem 0;
+  }
+  
+  .privacy-title {
+    font-size: 2rem;
+  }
+  
+  .privacy-section-title {
+    font-size: 1.25rem;
+  }
 }
