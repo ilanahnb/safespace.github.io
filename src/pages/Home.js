@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import '../App.css';
 
 export default function Home() {
     return (
@@ -50,16 +49,6 @@ export default function Home() {
                         <Feature title="Inclusive & Respectful" desc="Body-positive and LGBTQ+ friendly. Moderated with care." />
                         <Feature title="Private by Design" desc="No follower counts, no public like numbers. You're in control." />
                     </Row>
-                </Container>
-            </section>
-
-            <section className="cta-section text-center py-5">
-                <Container>
-                    <h2 className="cta-title mb-3">Join the movement</h2>
-                    <p className="cta-text mb-4">Help shape a safer, calmer social space.</p>
-                    <Button variant="light" size="lg" href="#">
-                        Download Now
-                    </Button>
                 </Container>
             </section>
         </div>

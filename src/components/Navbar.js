@@ -6,7 +6,14 @@ export default function AppNavbar() {
     return (
         <Navbar expand="lg" variant="dark" style={{ backgroundColor: '#1c1c1c' }}>
             <Container>
-                <Navbar.Brand as={Link} to="/" style={{ color: '#eaeaea' }}>Safe Space</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" style={{ color: '#eaeaea', display: 'flex', alignItems: 'center' }}>
+                    <img
+                        src="/logo.png"
+                        alt="Safe Space Logo"
+                        style={{ height: '30px', marginRight: '10px' }}
+                    />
+                    Safe Space
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="main-navbar" />
                 <Navbar.Collapse id="main-navbar">
                     <Nav className="ms-auto">
