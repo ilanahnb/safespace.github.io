@@ -4,6 +4,7 @@ import AppNavbar from './components/Navbar';
 import AppFooter from './components/Footer';
 import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import Contact from './pages/Contact';
 import './App.css';
 
 export default function App() {
@@ -15,7 +16,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
-            {/* Add more routes as needed */}
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <AppFooter />
