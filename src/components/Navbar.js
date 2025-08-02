@@ -19,7 +19,6 @@ export default function AppNavbar() {
                     <Nav className="ms-auto">
                         <Nav.Link as={Link} to="/" style={{ color: '#eaeaea' }}>Home</Nav.Link>
                         <Nav.Link as={Link} to="/privacy" style={{ color: '#eaeaea' }}>Privacy</Nav.Link>
-                        <Nav.Link as={Link} to="/support" style={{ color: '#eaeaea' }}>Support</Nav.Link>
                         <Nav.Link as={Link} to="/contact" style={{ color: '#eaeaea' }}>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

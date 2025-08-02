@@ -7,7 +7,6 @@ export default function AppFooter() {
             <p className="mb-1">&copy; 2025 Safe Space</p>
             <div>
                 <Link to="/privacy" className="text-light mx-2 text-decoration-none">Privacy</Link>
-                <Link to="/support" className="text-light mx-2 text-decoration-none">Support</Link>
                 <Link to="/contact" className="text-light mx-2 text-decoration-none">Contact</Link>
             </div>
         </footer>
