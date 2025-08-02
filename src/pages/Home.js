@@ -1,0 +1,78 @@
+import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import '../App.css';
+
+export default function Home() {
+    return (
+        <div className="home-root">
+            <header className="home-header text-center py-4">
+                <h1 className="home-title">Safe Space</h1>
+                <p className="lead home-subtitle">
+                    Mindful social media — no ads, no pressure, just you.
+                </p>
+            </header>
+
+            <section className="hero-section text-center py-5">
+                <Container>
+                    <h2 className="hero-title mb-4">Download the App</h2>
+                    <div>
+                        <a
+                            href="https://play.google.com/store/apps/details?id=com.example.safespace"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="/googleplay.svg"
+                                alt="Get it on Google Play"
+                                className="store-badge"
+                            />
+                        </a>
+                        <a
+                            href="https://apps.apple.com/app/id123456789"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="/appstore.svg"
+                                alt="Download on the App Store"
+                                className="store-badge"
+                            />
+                        </a>
+                    </div>
+                </Container>
+            </section>
+
+            <section className="features-section py-5">
+                <Container>
+                    <Row className="g-4">
+                        <Feature title="No Ads, No Algorithms" desc="Enjoy a clean, uncluttered feed with no targeted ads or manipulative algorithms." />
+                        <Feature title="Focus on Mental Wellness" desc="Built to reduce doomscrolling and support genuine connection." />
+                        <Feature title="Inclusive & Respectful" desc="Body-positive and LGBTQ+ friendly. Moderated with care." />
+                        <Feature title="Private by Design" desc="No follower counts, no public like numbers. You're in control." />
+                    </Row>
+                </Container>
+            </section>
+
+            <section className="cta-section text-center py-5">
+                <Container>
+                    <h2 className="cta-title mb-3">Join the movement</h2>
+                    <p className="cta-text mb-4">Help shape a safer, calmer social space.</p>
+                    <Button variant="light" size="lg" href="#">
+                        Download Now
+                    </Button>
+                </Container>
+            </section>
+        </div>
+    );
+}
+
+function Feature({ title, desc }) {
+    return (
+        <Col md={6} lg={3}>
+            <div className="feature-card">
+                <h5 className="feature-title">{title}</h5>
+                <p className="feature-text">{desc}</p>
+            </div>
+        </Col>
+    );
+}

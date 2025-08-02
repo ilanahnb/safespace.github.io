@@ -1,0 +1,183 @@
+/* App Base Styles */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Global Styles */
+body {
+  background-color: #0f0f0f;
+  color: #b8b8b8;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #eaeaea;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Home Page Styles */
+.home-root {
+  background-color: #0f0f0f;
+  color: #b8b8b8;
+  font-family: 'Nunito', sans-serif;
+}
+
+.home-header {
+  background-color: #1c1c1c;
+}
+
+.home-title {
+  font-family: 'Poppins', sans-serif;
+  color: #eaeaea;
+  font-weight: 700;
+}
+
+.home-subtitle {
+  color: #eaeaea;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #212723;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero-image {
+  max-width: 200px;
+  margin: 1rem;
+}
+
+.hero-title {
+  color: #eaeaea;
+  font-family: 'Poppins', sans-serif;
+}
+
+.store-badge {
+  height: 60px;
+  margin: 10px;
+}
+
+/* Features Section */
+.features-section {
+  background-color: #1c1c1c;
+  padding: 3rem 1rem;
+}
+
+.feature-card {
+  background-color: #1c1c1c;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem;
+  height: 100%;
+  color: #b8b8b8;
+}
+
+.feature-title {
+  font-family: 'Poppins', sans-serif;
+  color: #eaeaea;
+  font-weight: 600;
+}
+
+.feature-text {
+  color: #b8b8b8;
+}
+
+/* Call to Action Section */
+.cta-section {
+  background-color: #4e7856;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #ffffff;
+}
+
+.cta-title {
+  font-family: 'Poppins', sans-serif;
+}
+
+.cta-text {
+  color: #ffffff;
+}
+
+.cta-section a {
+  color: #1c1c1c;
+  background-color: #9bd4a6;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: #1c1c1c;
+  color: #8c8c8c;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.footer-links a {
+  color: #8c8c8c;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Privacy Page Styles */
+.privacy-container {
+  background-color: #0f0f0f;
+  color: #b8b8b8;
+  font-family: 'Nunito', sans-serif;
+}
+
+.privacy-title {
+  color: #eaeaea;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.privacy-section {
+  margin-bottom: 3rem;
+}
+
+.privacy-section-title {
+  color: #eaeaea;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
