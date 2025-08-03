@@ -16,23 +16,25 @@ export default function Home() {
                     <h2 className="hero-title mb-4">Download the App</h2>
                     <div>
                         <a
-                            href="https://play.google.com/store/apps/details?id=com.example.safespace"
-                            target="_blank"
+                            // href="https://play.google.com/store/apps/details?id=com.example.safespace"
+                            href=""
+                            // target="_blank"
                             rel="noopener noreferrer"
                         >
                             <img
-                                src="/googleplay.svg"
+                                src={`${process.env.PUBLIC_URL}/googleplay.svg`}
                                 alt="Get it on Google Play"
                                 className="store-badge"
                             />
                         </a>
                         <a
-                            href="https://apps.apple.com/app/id123456789"
-                            target="_blank"
+                            // href="https://apps.apple.com/app/id123456789"
+                            href=""
+                            // target="_blank"
                             rel="noopener noreferrer"
                         >
                             <img
-                                src="/appstore.svg"
+                                src={`${process.env.PUBLIC_URL}/appstore.svg`}
                                 alt="Download on the App Store"
                                 className="store-badge"
                             />

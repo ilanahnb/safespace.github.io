@@ -8,7 +8,7 @@ export default function AppNavbar() {
             <Container>
                 <Navbar.Brand as={Link} to="/" style={{ color: '#eaeaea', display: 'flex', alignItems: 'center' }}>
                     <img
-                        src="/logo.png"
+                        src={`${process.env.PUBLIC_URL}/logo.png`}
                         alt="Safe Space Logo"
                         style={{ height: '30px', marginRight: '10px' }}
                     />
