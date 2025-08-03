@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function PrivacyPolicy() {
     return (
@@ -107,7 +108,7 @@ export default function PrivacyPolicy() {
                         <Bullet> Request deletion of your account and associated data </Bullet>
                     </ul>
                     <p>
-                        To make a request, please <a className='privacy-link' href="/contact">contact us here</a>.
+                        To make a request, please <Link className='privacy-link' to="/contact">contact us here</Link>.
                     </p>
                 </Section>
 
@@ -118,7 +119,7 @@ export default function PrivacyPolicy() {
 
                 <Section title="12. Contact Us">
                     <p>Safe Space</p>
-                    <p>You can <a className='privacy-link' href="/contact">contact us here</a>.</p>
+                    <p>You can <Link className='privacy-link' to="/contact">contact us here</Link>.</p>
                 </Section>
 
                 <p className="mt-5">
