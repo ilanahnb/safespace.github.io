@@ -10,7 +10,7 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
-      <Router basename="/safespace.github.io">
+      <Router>
         <AppNavbar />
         <main>
           <Routes>
