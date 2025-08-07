@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/safespace.github.io/static/css/main.b52c4b2d.css",
-    "main.js": "/safespace.github.io/static/js/main.91ae7a5f.js",
-    "static/js/453.4fe311f9.chunk.js": "/safespace.github.io/static/js/453.4fe311f9.chunk.js",
-    "index.html": "/safespace.github.io/index.html",
-    "main.b52c4b2d.css.map": "/safespace.github.io/static/css/main.b52c4b2d.css.map",
-    "main.91ae7a5f.js.map": "/safespace.github.io/static/js/main.91ae7a5f.js.map",
-    "453.4fe311f9.chunk.js.map": "/safespace.github.io/static/js/453.4fe311f9.chunk.js.map"
+    "main.css": "/safe-space.app/static/css/main.b52c4b2d.css",
+    "main.js": "/safe-space.app/static/js/main.5cf642a7.js",
+    "static/js/453.4fe311f9.chunk.js": "/safe-space.app/static/js/453.4fe311f9.chunk.js",
+    "index.html": "/safe-space.app/index.html",
+    "main.b52c4b2d.css.map": "/safe-space.app/static/css/main.b52c4b2d.css.map",
+    "main.5cf642a7.js.map": "/safe-space.app/static/js/main.5cf642a7.js.map",
+    "453.4fe311f9.chunk.js.map": "/safe-space.app/static/js/453.4fe311f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b52c4b2d.css",
-    "static/js/main.91ae7a5f.js"
+    "static/js/main.5cf642a7.js"
   ]
 }
