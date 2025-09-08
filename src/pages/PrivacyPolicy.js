@@ -9,9 +9,7 @@ export default function PrivacyPolicy() {
                 <p className="text-label">Last updated: 8 September 2025</p>
 
                 <p>
-                    This Privacy Policy explains how we collect, use, store, and protect your personal information when you use our mobile application ("the App").
-                    Your privacy and well-being are our top priorities, and we are committed to maintaining a safe, transparent, and respectful platform that complies
-                    with global privacy regulations including the EU General Data Protection Regulation (GDPR), the UK Data Protection Act, Australian Privacy Act, and New Zealand Privacy Act.
+                    This Privacy Policy explains how we collect, use, store, and protect your personal information when you use our mobile application ("the App"). Your privacy and well-being are our top priorities, and we are committed to maintaining a safe, transparent, and respectful platform that complies with global privacy regulations including the EU General Data Protection Regulation (GDPR), the UK Data Protection Act, Australian Privacy Act, New Zealand Privacy Act, Canadian Personal Information Protection and Electronic Documents Act (PIPEDA), and relevant provincial privacy laws.
                 </p>
 
                 <hr className="my-4" />
@@ -183,7 +181,21 @@ export default function PrivacyPolicy() {
                     </p>
                 </Section>
 
-                <Section title="12. Data Breach Notification">
+                <Section title="12. Cookies and Similar Technologies">
+                    <p>
+                        Our app uses minimal technical storage (similar to cookies) that is strictly necessary for the functioning of the app. We do not use cookies for advertising or non-essential tracking purposes. The technical storage we use includes:
+                    </p>
+                    <ul>
+                        <Bullet> Authentication tokens to keep you logged in </Bullet>
+                        <Bullet> App preferences to remember your settings </Bullet>
+                        <Bullet> Technical identifiers necessary for app stability </Bullet>
+                    </ul>
+                    <p>
+                        You can clear all local data by uninstalling the app, though this will also remove your saved preferences.
+                    </p>
+                </Section>
+
+                <Section title="13. Data Breach Notification">
                     <p>
                         In case of a personal data breach that poses a risk to your rights and freedoms, we will notify relevant supervisory authorities within 72 hours of becoming aware of the breach, where feasible. If the breach is likely to result in a high risk to your rights and freedoms, we will also notify you directly without undue delay. Our notification will include:
                     </p>
@@ -196,13 +208,13 @@ export default function PrivacyPolicy() {
                     </ul>
                 </Section>
 
-                <Section title="13. Third-Party Services">
+                <Section title="14. Third-Party Services">
                     <p>
                         We may use privacy-respecting third-party services (e.g., cloud hosting, analytics) solely to operate and improve the App. These providers are required to handle your data securely and in compliance with applicable laws.
                     </p>
                 </Section>
 
-                <Section title="14. Your Data Protection Rights">
+                <Section title="15. Your Data Protection Rights">
                     <p>
                         Under data protection laws including GDPR, you have the following rights:
                     </p>
@@ -222,23 +234,39 @@ export default function PrivacyPolicy() {
                         If you are located in the EU/EEA, UK, Australia, or New Zealand, you also have the right to lodge a complaint with your local data protection authority if you believe that we have not complied with applicable data protection laws. Key authorities include:
                     </p>
                     <ul>
-                        <Bullet> EU: Your national Data Protection Authority </Bullet>
+                        <Bullet> EU: Your national Data Protection Authority (in Sweden: Integritetsskyddsmyndigheten) </Bullet>
                         <Bullet> UK: Information Commissioner's Office (ICO) </Bullet>
                         <Bullet> Australia: Office of the Australian Information Commissioner (OAIC) </Bullet>
                         <Bullet> New Zealand: Office of the Privacy Commissioner </Bullet>
+                        <Bullet> Canada: Office of the Privacy Commissioner of Canada or your provincial privacy commissioner </Bullet>
                     </ul>
                     <p>
                         To exercise any of these rights, <Link className='privacy-link' to="/contact">contact us here</Link>.
                     </p>
                 </Section>
 
+                <Section title="16. EU Digital Services Act Compliance">
+                    <p>
+                        For users in the European Union, we comply with the Digital Services Act (DSA). This includes:
+                    </p>
+                    <ul>
+                        <Bullet> Transparent reporting on content moderation decisions </Bullet>
+                        <Bullet> Clear procedures for reporting illegal content </Bullet>
+                        <Bullet> Timely processing of notices about illegal content </Bullet>
+                        <Bullet> Providing information about content restrictions in our Terms of Use </Bullet>
+                        <Bullet> Implementing effective safeguards against misuse of our service </Bullet>
+                    </ul>
+                    <p>
+                        EU users have the right to lodge complaints about systemic issues with our content moderation with their national Digital Services Coordinator.
+                    </p>
+                </Section>
 
-                <Section title="15. Changes to This Policy">
+                <Section title="17. Changes to This Policy">
                     We may update this Privacy Policy from time to time. Significant changes will be communicated within the App or via email.
                     Your continued use of the App after any changes constitutes acceptance of the revised policy.
                 </Section>
 
-                <Section title="16. Contact Us">
+                <Section title="18. Contact Us">
                     <p>SafeSpace</p>
                     <p>You can <Link className='privacy-link' to="/contact">contact us here</Link>.</p>
                 </Section>
