@@ -20,7 +20,7 @@ export default function Contact() {
                 <section className="privacy-section">
                     <h5 className="privacy-section-title">General Inquiries</h5>
                     <p>
-                        For questions about Safe Space, partnerships, media, or any other general topic, please reach out to our team:
+                        For questions about SafeSpace, partnerships, media, or any other general topic, please reach out to our team:
                     </p>
                     <p>
                         <strong>📩 contact@safe-space.app</strong>
@@ -28,7 +28,7 @@ export default function Contact() {
                 </section>
 
                 <p className="mt-5">
-                    Thank you for being part of the Safe Space community.
+                    Thank you for being part of the SafeSpace community.
                 </p>
             </Container>
         </div>

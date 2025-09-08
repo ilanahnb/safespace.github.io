@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <div className="home-root">
             <header className="home-header text-center py-4">
-                <h1 className="home-title">Safe Space</h1>
+                <h1 className="home-title">SafeSpace</h1>
                 <p className="lead home-subtitle">
                     Mindful social media — no ads, no pressure, just you.
                 </p>

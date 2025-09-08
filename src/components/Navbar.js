@@ -9,10 +9,10 @@ export default function AppNavbar() {
                 <Navbar.Brand as={Link} to="/" style={{ color: '#eaeaea', display: 'flex', alignItems: 'center' }}>
                     <img
                         src={`${process.env.PUBLIC_URL}/logo.png`}
-                        alt="Safe Space Logo"
+                        alt="SafeSpace Logo"
                         style={{ height: '30px', marginRight: '10px' }}
                     />
-                    Safe Space
+                    SafeSpace
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="main-navbar" />
                 <Navbar.Collapse id="main-navbar">
