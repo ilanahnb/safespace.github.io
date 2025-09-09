@@ -16,9 +16,8 @@ export default function Home() {
                     <h2 className="hero-title mb-4">Download the App</h2>
                     <div>
                         <a
-                            // href="https://play.google.com/store/apps/details?id=com.example.safespace"
-                            href=""
-                            // target="_blank"
+                            href="https://play.google.com/store/apps/details?id=app.safespace"
+                            target="_blank"
                             rel="noopener noreferrer"
                         >
                             <img
@@ -28,7 +27,7 @@ export default function Home() {
                             />
                         </a>
                         <a
-                            // href="https://apps.apple.com/app/id123456789"
+                            // href="https://apps.apple.com/app/id6751099017"
                             href=""
                             // target="_blank"
                             rel="noopener noreferrer"
