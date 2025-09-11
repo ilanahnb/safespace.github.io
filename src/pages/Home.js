@@ -11,9 +11,39 @@ export default function Home() {
                 </p>
             </header>
 
-            <section className="hero-section text-center py-5">
+            <section className="screenshots-section py-5">
                 <Container>
-                    <h2 className="hero-title mb-4">Download the App</h2>
+                    {/* <h2 className="text-center mb-4">App Experience</h2> */}
+                    <div className="screenshots-carousel">
+                        <div className="screenshots-container d-flex overflow-auto pb-3 pt-3">
+                            {[1, 2, 3, 4, 5].map((num) => (
+                                <div key={num} className="screenshot-item mx-2">
+                                    <img
+                                        src={`${process.env.PUBLIC_URL}/android-${num}.jpg`}
+                                        alt={`SafeSpace App Screenshot ${num}`}
+                                        className="screenshot-img img-fluid rounded shadow-sm"
+                                    />
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
+            <section className="features-section py-5">
+                <Container>
+                    <Row className="g-4">
+                        <Feature title="Focus on Mental Wellness" desc="No follower counts, no public like numbers. Social media should not be a popularity contest." />
+                        <Feature title="No Ads, No Algorithms" desc="Enjoy a clean, uncluttered feed with no targeted ads or manipulative algorithms. Fair Visibility for All." />
+                        <Feature title="Intentional Use" desc="Built to reduce doomscrolling and support genuine connection." />
+                        <Feature title="Inclusive & Respectful" desc="Body-positive and LGBTQ+ friendly. Moderated with care." />
+                    </Row>
+                </Container>
+            </section>
+
+            <section className="app-store-section text-center py-5">
+                <Container>
+                    <h2 className="app-store-title mb-4">Download the App</h2>
                     <div>
                         <a
                             href="https://play.google.com/store/apps/details?id=app.safespace"
@@ -26,7 +56,7 @@ export default function Home() {
                                 className="store-badge"
                             />
                         </a>
-                        <a
+                        {/* <a
                             // href="https://apps.apple.com/app/id6751099017"
                             href=""
                             // target="_blank"
@@ -37,19 +67,8 @@ export default function Home() {
                                 alt="Download on the App Store"
                                 className="store-badge"
                             />
-                        </a>
+                        </a> */}
                     </div>
-                </Container>
-            </section>
-
-            <section className="features-section py-5">
-                <Container>
-                    <Row className="g-4">
-                        <Feature title="No Ads, No Algorithms" desc="Enjoy a clean, uncluttered feed with no targeted ads or manipulative algorithms. Fair Visibility for All." />
-                        <Feature title="Intentional Use" desc="Built to reduce doomscrolling and support genuine connection." />
-                        <Feature title="Inclusive & Respectful" desc="Body-positive and LGBTQ+ friendly. Moderated with care." />
-                        <Feature title="Focus on Mental Wellness" desc="No follower counts, no public like numbers. Social media should not be a popularity contest." />
-                    </Row>
                 </Container>
             </section>
         </div>

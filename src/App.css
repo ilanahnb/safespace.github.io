@@ -141,19 +141,19 @@ h5 {
   color: var(--dark-primary-text);
 }
 
-/* Hero Section */
-.hero-section {
+/* App Store Section */
+.app-store-section {
   background-color: var(--dark-secondary-background);
   text-align: center;
   padding: 4rem 1rem;
 }
 
-.hero-image {
+.app-store-image {
   max-width: 200px;
   margin: 1rem;
 }
 
-.hero-title {
+.app-store-title {
   color: var(--dark-primary-text);
   font-family: 'Poppins', sans-serif;
 }
@@ -276,6 +276,55 @@ h5 {
 .privacy-link:hover {
   color: var(--dark-secondary);
   text-decoration: underline;
+}
+
+/* Screenshots Carousel */
+.screenshots-section {
+  background-color: var(--dark-secondary-background);
+  padding: 3rem 1rem;
+}
+
+.screenshots-container {
+  scrollbar-width: thin;
+  /* scrollbar-color: var(--dark-primary) var(--dark-scaffold); */
+  -webkit-overflow-scrolling: touch;
+}
+
+.screenshots-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.screenshots-container::-webkit-scrollbar-track {
+  background: var(--dark-scaffold);
+  border-radius: 10px;
+}
+
+.screenshots-container::-webkit-scrollbar-thumb {
+  background-color: var(--dark-primary);
+  border-radius: 10px;
+}
+
+.screenshot-item {
+  flex: 0 0 auto;
+  width: 250px;
+}
+
+.screenshot-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.screenshot-img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments for screenshots */
+@media (max-width: 768px) {
+  .screenshot-item {
+    width: 180px;
+  }
 }
 
 /* Responsive adjustments for privacy page */
