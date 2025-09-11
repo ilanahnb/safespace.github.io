@@ -36,7 +36,7 @@ export default function Home() {
                         <Feature title="Focus on Mental Wellness" desc="No follower counts, no public like numbers. Social media should not be a popularity contest." />
                         <Feature title="No Ads, No Algorithms" desc="Enjoy a clean, uncluttered feed with no targeted ads or manipulative algorithms. Fair Visibility for All." />
                         <Feature title="Intentional Use" desc="Built to reduce doomscrolling and support genuine connection." />
-                        <Feature title="Inclusive & Respectful" desc="Body-positive and LGBTQ+ friendly. Moderated with care." />
+                        <Feature title="Inclusive & Respectful" desc="Body-positive, LGBTQ+ and trans friendly. Moderated with care." />
                     </Row>
                 </Container>
             </section>
