@@ -56,10 +56,9 @@ export default function Home() {
                                 className="store-badge"
                             />
                         </a>
-                        {/* <a
-                            // href="https://apps.apple.com/app/id6751099017"
-                            href=""
-                            // target="_blank"
+                        <a
+                            href="https://apps.apple.com/au/app/safespace/id6751099017"
+                            target="_blank"
                             rel="noopener noreferrer"
                         >
                             <img
@@ -67,7 +66,7 @@ export default function Home() {
                                 alt="Download on the App Store"
                                 className="store-badge"
                             />
-                        </a> */}
+                        </a>
                     </div>
                 </Container>
             </section>
