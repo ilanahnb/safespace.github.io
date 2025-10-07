@@ -57,7 +57,7 @@ export default function Home() {
                             />
                         </a>
                         <a
-                            href="https://apps.apple.com/au/app/safespace/id6751099017"
+                            href="https://apps.apple.com/app/safespace/id6751099017"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
