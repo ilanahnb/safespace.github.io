@@ -6,10 +6,10 @@ export default function PrivacyPolicy() {
         <div className="privacy-container py-5">
             <div className="container">
                 <h1 className="text-white" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700 }}>Privacy Policy</h1>
-                <p className="text-label">Last updated: 8 September 2025</p>
+                <p className="text-label">Last updated: 8 October 2025</p>
 
                 <p>
-                    This Privacy Policy explains how we collect, use, store, and protect your personal information when you use our mobile application ("the App"). Your privacy and well-being are our top priorities, and we are committed to maintaining a safe, transparent, and respectful platform that complies with global privacy regulations including the EU General Data Protection Regulation (GDPR), the UK Data Protection Act, Australian Privacy Act, New Zealand Privacy Act, Canadian Personal Information Protection and Electronic Documents Act (PIPEDA), and relevant provincial privacy laws.
+                    This Privacy Policy explains how we collect, use, store, and protect your personal information when you use our mobile application ("the App"). Your privacy and well-being are our top priorities, and we are committed to maintaining a safe, transparent, and respectful platform that complies with global privacy regulations including the EU General Data Protection Regulation (GDPR), the UK Data Protection Act, Australian Privacy Act, New Zealand Privacy Act, Canadian Personal Information Protection and Electronic Documents Act (PIPEDA), and relevant provincial privacy laws. This app complies with international privacy frameworks, including the EU GDPR, Brazil's LGPD, and equivalent laws in Latin America such as Mexico's LFPDPPP and Chile's Law 19.628.
                 </p>
 
                 <hr className="my-4" />
@@ -124,27 +124,34 @@ export default function PrivacyPolicy() {
                     <h6 className="text-white mt-3 mb-2" style={{ fontFamily: 'Poppins, sans-serif' }}>Our Response Protocol</h6>
                     <p>Upon receiving reports or obtaining knowledge of CSAE/CSAM content, we will:</p>
                     <ul>
-                        <Bullet> Immediately investigate and remove violating content </Bullet>
+                        <Bullet> Review all reports within 24 hours of receipt </Bullet>
+                        <Bullet> Immediately investigate and remove violating content upon confirmation </Bullet>
                         <Bullet> Permanently ban accounts involved in CSAE activities </Bullet>
-                        <Bullet> Report confirmed CSAM to the National Center for Missing and Exploited Children (NCMEC) and relevant authorities </Bullet>
+                        <Bullet> Report confirmed CSAM to NCMEC and relevant authorities within 24-48 hours as required by law </Bullet>
                         <Bullet> Cooperate fully with law enforcement investigations </Bullet>
                         <Bullet> Preserve evidence as required by applicable laws </Bullet>
+                        <Bullet> Conduct follow-up reviews to prevent similar violations </Bullet>
                     </ul>
 
                     <h6 className="text-white mt-3 mb-2" style={{ fontFamily: 'Poppins, sans-serif' }}>Legal Compliance</h6>
                     <p>
-                        We comply with all applicable child safety laws and regulations, including mandatory reporting requirements.
-                        We maintain processes to identify, report, and respond to CSAM in accordance with local and international laws.
+                        We comply with all applicable child safety laws and regulations, including mandatory reporting requirements. As an Australian-based platform, we maintain processes to identify, report, and respond to CSAM in accordance with Australian law and international standards, including:
                     </p>
+                    <ul>
+                        <Bullet> Australia: eSafety Commissioner reporting requirements and Online Safety Act compliance </Bullet>
+                        <Bullet> International cooperation with relevant authorities as required </Bullet>
+                        <Bullet> Compliance with mandatory reporting laws and child protection regulations </Bullet>
+                    </ul>
 
                     <h6 className="text-white mt-3 mb-2" style={{ fontFamily: 'Poppins, sans-serif' }}>Child Safety Contact</h6>
                     <p>
                         For child safety concerns or if you believe a child is in danger, please:
                     </p>
                     <ul>
-                        <Bullet> Contact local law enforcement immediately </Bullet>
-                        <Bullet> Report to NCMEC at CyberTipline.org (US) or your relevant regional authority </Bullet>
-                        <Bullet> Contact our designated child safety representative at <strong>support@safe-space.app</strong> or through our <Link className='privacy-link' to="/contact">contact page</Link> </Bullet>
+                        <Bullet> Contact local law enforcement immediately (emergency situations) </Bullet>
+                        <Bullet> Report to the eSafety Commissioner at esafety.gov.au (Australia) </Bullet>
+                        <Bullet> Contact our designated child safety representative at <strong>support@safe-space.app</strong> </Bullet>
+                        <Bullet> Use our in-app reporting feature for immediate concerns </Bullet>
                     </ul>
                 </Section>
 
@@ -170,9 +177,14 @@ export default function PrivacyPolicy() {
                     <ul>
                         <Bullet> EU Standard Contractual Clauses </Bullet>
                         <Bullet> UK International Data Transfer Agreements </Bullet>
+                        <Bullet> Brazilian Standard Contractual Clauses (CCTs) for LGPD compliance </Bullet>
+                        <Bullet> Binding contractual commitments in compliance with Mexico's LFPDPPP </Bullet>
                         <Bullet> Ensuring adequate levels of data protection in recipient countries </Bullet>
                         <Bullet> Obtaining your explicit consent where required </Bullet>
                     </ul>
+                    <p>
+                        For Latin American users: In accordance with regional privacy laws including Brazil's LGPD, we obtain your explicit consent for international data transfers when registering for our service. We ensure that any third parties receiving your data provide adequate levels of protection in line with the standards set by Latin American privacy regulations. You have the right to withdraw your consent to international transfers at any time, though this may affect our ability to provide certain services.
+                    </p>
                 </Section>
 
                 <Section title="11. Automated Decision Making">
@@ -183,15 +195,28 @@ export default function PrivacyPolicy() {
 
                 <Section title="12. Cookies and Similar Technologies">
                     <p>
-                        Our app uses minimal technical storage (similar to cookies) that is strictly necessary for the functioning of the app. We do not use cookies for advertising or non-essential tracking purposes. The technical storage we use includes:
+                        Our app uses minimal technical storage (similar to cookies) that is strictly necessary for the functioning of the app. We do not use cookies for advertising or non-essential tracking purposes. By using our app, you consent to the storage of the following essential data on your device:
                     </p>
                     <ul>
                         <Bullet> Authentication tokens to keep you logged in </Bullet>
                         <Bullet> App preferences to remember your settings </Bullet>
                         <Bullet> Technical identifiers necessary for app stability </Bullet>
+                        <Bullet> Cached media files (such as images, videos and audio) to improve performance and reduce data usage </Bullet>
+                        <Bullet> User authentication information to maintain your session </Bullet>
                     </ul>
                     <p>
-                        You can clear all local data by uninstalling the app, though this will also remove your saved preferences.
+                        For Latin American users (including Brazil, Mexico, Colombia, Argentina, Chile, and Peru): In accordance with local privacy laws such as Brazil's LGPD and similar regulations, we explicitly inform you that these technical storage mechanisms are essential for the app's functionality and security. We do not use this stored data for advertising, tracking across other apps/sites, or any purpose beyond providing and improving our service to you.
+                    </p>
+                    <p>
+                        You can control and manage your local storage in the following ways:
+                    </p>
+                    <ul>
+                        <Bullet> Clear cache: You can clear cached media files through your device settings or in-app settings while preserving your account </Bullet>
+                        <Bullet> Log out: You can log out to remove authentication tokens and session data </Bullet>
+                        <Bullet> Uninstall: You can clear all local data by uninstalling the app, though this will also remove your saved preferences </Bullet>
+                    </ul>
+                    <p>
+                        In line with privacy regulations in Latin America and globally, you have the right to access information about what data is stored on your device. You may contact us at support@safe-space.app to request this information.
                     </p>
                 </Section>
 
@@ -228,10 +253,22 @@ export default function PrivacyPolicy() {
                         <Bullet> Right to withdraw consent: You can withdraw previously given consent at any time </Bullet>
                     </ul>
                     <p>
-                        We will respond to all requests within 30 days. There is no fee for exercising these rights unless requests are manifestly unfounded or excessive.
+                        We adhere to the following timeframes when responding to data subject requests:
+                    </p>
+                    <ul>
+                        <Bullet> EU/UK users (GDPR): Within 30 days, with possible extension of up to 2 months for complex requests </Bullet>
+                        <Bullet> Brazilian users (LGPD): Within 15 days </Bullet>
+                        <Bullet> Mexican users (LFPDPPP): Within 20 days, with possible 20-day extension </Bullet>
+                        <Bullet> Colombian users (Law 1581): Within 10 business days for information requests, 15 business days for other requests </Bullet>
+                        <Bullet> Peruvian users (Law 29733): Within 20 days, with possible 10-day extension </Bullet>
+                        <Bullet> Argentinian users (Law 25.326): Within 10 days </Bullet>
+                        <Bullet> Users in other countries: Within 30 days </Bullet>
+                    </ul>
+                    <p>
+                        There is no fee for exercising these rights unless requests are manifestly unfounded or excessive.
                     </p>
                     <p>
-                        If you are located in the EU/EEA, UK, Australia, or New Zealand, you also have the right to lodge a complaint with your local data protection authority if you believe that we have not complied with applicable data protection laws. Key authorities include:
+                        If you are located in the EU/EEA, UK, Australia, New Zealand, or Latin America, you also have the right to lodge a complaint with your local data protection authority if you believe that we have not complied with applicable data protection laws. Key authorities include:
                     </p>
                     <ul>
                         <Bullet> EU: Your national Data Protection Authority (in Sweden: Integritetsskyddsmyndigheten) </Bullet>
@@ -239,6 +276,11 @@ export default function PrivacyPolicy() {
                         <Bullet> Australia: Office of the Australian Information Commissioner (OAIC) </Bullet>
                         <Bullet> New Zealand: Office of the Privacy Commissioner </Bullet>
                         <Bullet> Canada: Office of the Privacy Commissioner of Canada or your provincial privacy commissioner </Bullet>
+                        <Bullet> Brazil: National Data Protection Authority (ANPD) </Bullet>
+                        <Bullet> Mexico: National Institute for Transparency, Access to Information and Personal Data Protection (INAI) </Bullet>
+                        <Bullet> Colombia: Superintendence of Industry and Commerce </Bullet>
+                        <Bullet> Peru: National Authority for Data Protection </Bullet>
+                        <Bullet> Argentina: Agency of Access to Public Information </Bullet>
                     </ul>
                     <p>
                         To exercise any of these rights, <Link className='privacy-link' to="/contact">contact us here</Link>.
@@ -261,13 +303,37 @@ export default function PrivacyPolicy() {
                     </p>
                 </Section>
 
-                <Section title="17. Changes to This Policy">
+                <Section title="17. Latin American Privacy Laws Compliance">
+                    <p>
+                        For users in Latin America, we comply with various data protection laws including:
+                    </p>
+                    <ul>
+                        <Bullet> Brazil: Lei Geral de Proteção de Dados (LGPD) - We respect your rights as a data subject, including rights to access, correct, delete, and port your personal data </Bullet>
+                        <Bullet> Mexico: Federal Law on Protection of Personal Data Held by Private Parties (LFPDPPP) - We obtain your consent before processing personal data and provide clear information on how it will be used </Bullet>
+                        <Bullet> Chile: Law No. 19.628 on the Protection of Private Life - We process your data lawfully and with respect for your privacy rights </Bullet>
+                        <Bullet> Colombia: Statutory Law 1581 of 2012 - We implement appropriate security measures to protect your data and respect your right to update and rectify information </Bullet>
+                        <Bullet> Argentina: Personal Data Protection Law No. 25.326 - We maintain data accuracy and confidentiality while respecting your rights as a data subject </Bullet>
+                        <Bullet> Peru: Personal Data Protection Law No. 29733 - We only process data with valid legal basis and respect rights to information access </Bullet>
+                    </ul>
+                    <p>
+                        In all these jurisdictions, you have the right to access your personal data, request corrections, and in certain circumstances, request deletion. You may exercise these rights by contacting us at support@safe-space.app.
+                    </p>
+                </Section>
+
+                <Section title="18. Changes to This Policy">
                     We may update this Privacy Policy from time to time. Significant changes will be communicated within the App or via email.
                     Your continued use of the App after any changes constitutes acceptance of the revised policy.
                 </Section>
 
-                <Section title="18. Contact Us">
+                <Section title="19. Contact Us">
+                    <p>
+                        For privacy or data protection queries, including complaints or data subject requests (including those related to GDPR, LGPD, or other privacy regulations), you can contact our privacy team at:
+                    </p>
+                    <p>support@safe-space.app</p>
                     <p>SafeSpace</p>
+                    <p>
+                        While we do not have a formally appointed Data Protection Officer (DPO), we have designated individuals responsible for data protection compliance within our organization. All privacy inquiries will be handled with the same level of care and diligence as required by applicable privacy laws.
+                    </p>
                     <p>You can <Link className='privacy-link' to="/contact">contact us here</Link>.</p>
                 </Section>
 
